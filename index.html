@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn Linux for Work</title>
+<meta name="description" content="Linux, DevOps and security training built for people who use Linux on the job. An open source project of Shea's Tech, LLC.">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://learnlinuxforwork.github.io/">
+<style>
+  :root {
+    --bg: #f6f8fa; --bg-elev: #ffffff; --text: #1f2328; --text-2: #59636e; --border: #d1d9e0;
+    --accent: #b42318; --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0d10; --bg-elev: #15181d; --text: #e6e8eb; --text-2: #9aa3ad; --border: #2a2f36;
+      --accent: #f2735a; --accent-text: #1a0f0c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); }
+  main { max-width: 960px; margin: 0 auto; padding: 48px 16px 64px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; display: block; margin-bottom: 12px; }
+  h1 { font-size: clamp(1.9rem, 4.5vw, 2.6rem); margin: 0 0 8px; line-height: 1.15; }
+  .lead { color: var(--text-2); font-size: 1.1rem; margin: 0 0 20px; max-width: 680px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .card { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px;
+          text-decoration: none; color: var(--text); display: flex; flex-direction: column; gap: 6px; }
+  a.card:hover { border-color: var(--accent); }
+  .card strong { font-size: 1.05rem; }
+  .card span { color: var(--text-2); font-size: 14px; }
+  .card em { color: var(--accent); font-style: normal; font-size: 13px; font-weight: 600; margin-top: auto; }
+  .btn { display: inline-block; padding: 9px 16px; border-radius: 8px; border: 1px solid var(--border);
+         background: var(--bg-elev); color: var(--text); text-decoration: none; font-weight: 600; font-size: 14px; }
+  .btn:hover { border-color: var(--text-2); }
+  .btn--primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+  .note { color: var(--text-2); font-size: 14px; margin: 10px 0 0; }
+  footer { color: var(--text-2); font-size: 14px; text-align: center; margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="https://free.learnlinuxforwork.com/assets/img/ST-Brain-Logo.png" alt="Shea's Tech logo">
+    <h1>Learn Linux for Work</h1>
+    <p class="lead">Linux, DevOps and security training built for people who use Linux on the job: sysadmins, support engineers, and anyone moving from desktop user to professional.</p>
+    <div class="actions">
+      <a class="btn btn--primary" href="https://pay.sheastech.io/b/aEU039dindBv6UU14l">Support Learn Linux for Work</a>
+      <a class="btn" href="https://www.learnlinuxforwork.com">learnlinuxforwork.com</a>
+      <a class="btn" href="https://linktr.ee/learnlinuxforwork">Learn Linux for Work Linktree</a>
+      <a class="btn" href="https://linktr.ee/sheastech">Shea's Tech Linktree</a>
+    </div>
+    <p class="note">An open source project of Shea's Tech, LLC.</p>
+  </header>
+
+  <h2>📚 Certification courses</h2>
+  <div class="grid">
+    <a class="card" href="https://lpi.learnlinuxforwork.com"><strong>LPI Linux Essentials</strong><span>Exam 010-160 · 6 weeks · complete beginners, no prerequisites</span><em>lpi.learnlinuxforwork.com →</em></a>
+    <a class="card" href="https://lfcs.learnlinuxforwork.com"><strong>LFCS</strong><span>Linux Foundation Certified System Administrator · 12 weeks · distro-neutral sysadmin skills</span><em>lfcs.learnlinuxforwork.com →</em></a>
+    <a class="card" href="https://rhcsa.learnlinuxforwork.com"><strong>RHCSA</strong><span>EX200 on RHEL 10 · 12 weeks · every objective covered</span><em>rhcsa.learnlinuxforwork.com →</em></a>
+    <a class="card" href="https://securityplusv8.learnlinuxforwork.com"><strong>CompTIA Security+ V8</strong><span>SY0-801 · 15 weeks · all 5 domains, all 27 objectives</span><em>securityplusv8.learnlinuxforwork.com →</em></a>
+  </div>
+
+  <h2>🗺️ Roadmaps</h2>
+  <div class="grid">
+    <a class="card" href="https://free.learnlinuxforwork.com"><strong>AWS DevOps roadmap</strong><span>54-week self-study path from Linux fundamentals to AWS Certified DevOps Engineer – Professional</span><em>free.learnlinuxforwork.com →</em></a>
+  </div>
+
+  <h2>🖥️ Desktop and workplace tools</h2>
+  <div class="grid">
+    <a class="card" href="https://github.com/learnlinuxforwork/linux-desktop-for-work"><strong>linux-desktop-for-work</strong><span>Turning a Linux desktop into a daily work machine</span><em>GitHub →</em></a>
+    <a class="card" href="https://github.com/learnlinuxforwork/linux-govcac"><strong>linux-govcac</strong><span>Set up CAC/PIV smartcard readers on government or corporate Linux desktops</span><em>GitHub →</em></a>
+    <a class="card" href="https://github.com/learnlinuxforwork/vmware-workstation-linux"><strong>vmware-workstation-linux</strong><span>Fix VMware Workstation on Secure Boot Linux</span><em>GitHub →</em></a>
+  </div>
+
+  <h2>🔒 Student projects (invitation only)</h2>
+  <div class="grid">
+    <a class="card" href="https://engineer.learnlinuxforwork.com"><strong>Linux-Engineer</strong><span>One script for a DevOps / Linux engineer desktop on Ubuntu 26.04 or Rocky Linux 10</span><em>Request access →</em></a>
+    <a class="card" href="https://obs.learnlinuxforwork.com"><strong>OBS</strong><span>OBS Studio tuned for 1080p60 YouTube recording on Linux</span><em>Request access →</em></a>
+  </div>
+  <p class="note">Course and student repositories are private. To request access, email <a href="mailto:school@sheastech.io">school@sheastech.io</a>.</p>
+
+  <footer>
+    <a href="https://learnlinuxforwork.com/license">License (GNU AGPL v3.0 or later)</a> ·
+    <a href="https://learnlinuxforwork.com/terms">Terms and conditions</a> ·
+    <a href="https://github.com/learnlinuxforwork">GitHub</a>
+  </footer>
+</main>
+</body>
+</html>
